@@ -57,7 +57,7 @@ class Comments extends Component {
       <li key={index}>
         {comment.body}</li>
     )
-    const reviewComments = this.state.comments.map((reviewComment, index) =>
+    const reviewComments = this.state.reviewComments.map((reviewComment, index) =>
     <li key={index}>
       {reviewComment.body}</li>
   )
